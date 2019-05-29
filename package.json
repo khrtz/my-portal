@@ -3,5 +3,26 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "watch": "webpack-dev-server --hot --mode development --port 5555",
+    "build": "rimraf public && NODE_ENV=production webpack",
+    "lint": "tslint src/**.ts src/**.tsx",
+    "test": "run-s test:*"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.0.0-rc.0",
+    "@material-ui/styles": "^4.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "copy-webpack-plugin": "^5.0.3",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
 }
