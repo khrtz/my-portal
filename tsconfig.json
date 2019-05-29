@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+      "jsx": "react",
+      "noImplicitAny": false,
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "baseUrl": ".",
+      "experimentalDecorators": true,
+      "target": "ESNext",
+      "outDir": "public",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "sourceMap": false
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "public"
+  ]
+}
