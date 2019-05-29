@@ -17,10 +17,10 @@ function SimpleAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" color="default">
+      <AppBar position="static" color="primary">
         <Toolbar>
           <Typography variant="h6" color="inherit">
-            khrtz page
+            khrtz
           </Typography>
         </Toolbar>
       </AppBar>
