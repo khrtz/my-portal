@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography'
 
 import { LinksPage } from '../links-page';
+import { Container } from '@material-ui/core';
 
 const useStyles = makeStyles({
   root: {
@@ -31,9 +32,11 @@ function SimpleAppBar() {
 export const Home = ({
 }) => {
   return (
-    <React.Fragment>
+    <React.StrictMode>
       <SimpleAppBar />
-      <LinksPage />
-    </React.Fragment>
+      <Container>
+        <LinksPage />
+      </Container>
+    </React.StrictMode>
   );
 }
