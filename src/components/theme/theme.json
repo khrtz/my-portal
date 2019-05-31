@@ -186,10 +186,10 @@
     },
     "divider": "rgba(0, 0, 0, 0.12)",
     "secondary": {
-      "light": "#ff4081",
-      "main": "#f50057",
-      "dark": "#c51162",
-      "contrastText": "#fff"
+      "main": "#709ad1",
+      "light": "rgb(140, 174, 218)",
+      "dark": "rgb(78, 107, 146)",
+      "contrastText": "rgba(0, 0, 0, 0.87)"
     },
     "common": { "black": "#000", "white": "#fff" },
     "error": {
@@ -208,11 +208,11 @@
       "active": "rgba(0, 0, 0, 0.54)"
     },
     "primary": {
-      "main": "#42A5F5",
-      "light": "rgb(103, 183, 247)",
-      "dark": "rgb(46, 115, 171)",
-      "contrastText": "rgba(0, 0, 0, 0.87)"
+      "main": "#59626b",
+      "light": "rgb(122, 129, 136)",
+      "dark": "rgb(62, 68, 74)",
+      "contrastText": "#fff"
     }
   },
-  "themeName": "Picton Blue Razzmatazz Crow"
+  "themeName": "Shuttle Gray Danube Kultarr"
 }

@@ -20,7 +20,7 @@ export const Links: React.SFC<Props> = ({
   return (
     <div>
       <Profile />
-      <Typography color={'secondary'} variant={'subtitle1'}>
+      <Typography color='secondary' variant={'subtitle1'}>
         <Link href="https://blog.khrtz.xyz" className={classes.link}>Blog</Link>
         <Link href="https://github.com/khrtz" className={classes.link}>GitHub</Link>
         <Link href="https://twitter.com/khrtz" className={classes.link}>Twitter</Link>
