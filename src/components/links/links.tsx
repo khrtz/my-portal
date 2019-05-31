@@ -3,8 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Profile from '../profile/profile';
 import Link from '@material-ui/core/Link';
-import { Chip, Avatar, Box } from '@material-ui/core';
-import { CodeRounded } from '@material-ui/icons';
+import { Box } from '@material-ui/core';
 
 interface Props {
 }
@@ -30,22 +29,6 @@ export const Links: React.SFC<Props> = ({
           <Link href="https://blog.khrtz.xyz" className={classes.link}>Blog</Link>
           <Link href="https://github.com/khrtz" className={classes.link}>GitHub</Link>
           <Link href="https://twitter.com/khrtz" className={classes.link}>Twitter</Link>
-          <Link
-            className={classes.repoLink}
-            href="https://github.com/khrtz/my-portal"
-          >
-            <Chip
-              color="secondary"
-              avatar={
-                <Avatar>
-                  <CodeRounded />
-                </Avatar>
-              }
-            label="This Site Code"
-            variant="default"
-            clickable
-          />
-        </Link>
         </Typography>
       </Box>
     </div>
