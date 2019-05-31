@@ -13,7 +13,7 @@ const useStyles = makeStyles({
   }
 });
 
-export const LinksPage: React.SFC<Props> = ({
+export const Links: React.SFC<Props> = ({
 }) => {
   const classes = useStyles();
 
