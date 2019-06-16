@@ -29,6 +29,7 @@ export const Links: React.SFC<Props> = ({
           <Link href="https://blog.khrtz.xyz" className={classes.link}>Blog</Link>
           <Link href="https://github.com/khrtz" className={classes.link}>GitHub</Link>
           <Link href="https://twitter.com/khrtz" className={classes.link}>Twitter</Link>
+          <Link href="https://www.facebook.com/itkhrtz" className={classes.link}>Facebook</Link>
         </Typography>
       </Box>
     </div>
