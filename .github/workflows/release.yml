@@ -1,0 +1,15 @@
+on: release
+name: Check tag and release
+jobs:
+  github_changes:
+    steps:
+    - name: checkout
+      uses: actions/checkout@master
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+    - run: npm install github-changes
+    - run: github-changes -o khrtz -r my-portal -a --only-pulls --use-commit-body --for-tag upcoming
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
