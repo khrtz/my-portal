@@ -1,0 +1,14 @@
+on:
+  release
+    # Only use the types keyword to narrow down the activity types that will trigger your workflow.
+    types: [created]
+name: Check tag and release
+steps:
+- name: checkout
+  uses: actions/checkout@master
+- name: Setup Node
+  uses: actions/setup-node@v1
+  with:
+    node-version: '10.x'
+- run: npm install github-changes
+- run: github-changes -o khrtz -r my-portal -a --only-pulls --use-commit-body --for-tag upcoming
