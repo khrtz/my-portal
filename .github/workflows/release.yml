@@ -1,5 +1,4 @@
 on: release
- types: [created]
 name: Check tag and release
 steps:
 - name: checkout
