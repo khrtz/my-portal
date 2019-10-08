@@ -2,6 +2,7 @@ on: release
 name: Check tag and release
 jobs:
   github_changes:
+    runs-on: ubuntu-latest
     steps:
     - name: checkout
       uses: actions/checkout@master
