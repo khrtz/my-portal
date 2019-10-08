@@ -12,3 +12,5 @@ steps:
     node-version: '10.x'
 - run: npm install github-changes
 - run: github-changes -o khrtz -r my-portal -a --only-pulls --use-commit-body --for-tag upcoming
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
