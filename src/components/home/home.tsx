@@ -7,6 +7,8 @@ import Typography from '@material-ui/core/Typography'
 import { Links } from '../links';
 import { Container, Chip, Avatar, Link } from '@material-ui/core';
 import { CodeRounded } from '@material-ui/icons';
+import bugsnag from '@bugsnag/js'
+const bugsnagClient = bugsnag('838f71e7f76b1d276553efc5f096933f')
 
 const useStyles = makeStyles({
   root: {
@@ -50,6 +52,7 @@ function SimpleAppBar() {
 
 export const Home = ({
 }) => {
+  bugsnagClient.notify(new Error('Test error'));
   return (
     <React.StrictMode>
       <SimpleAppBar />
