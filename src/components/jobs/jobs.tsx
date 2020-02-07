@@ -4,9 +4,9 @@ import { Box, Typography, Card, CardContent, CardActions, Button, Link, Grid } f
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 200,
+    width: '100%',
     marginTop: '20px',
-    margin: '10px',
+    margin: '5px',
   },
   bullet: {
     display: 'inline-block',
@@ -20,7 +20,7 @@ const useStyles = makeStyles({
     marginBottom: 12,
   },
   detail: {
-    minHeight: '50px'
+    minHeight: '20px'
   }
 });
 
@@ -33,7 +33,6 @@ export function Jobs() {
       container
       direction="row"
       justify="flex-start"
-      alignItems="flex-start"
     >
       <Card className={classes.root}>
         <CardContent>
