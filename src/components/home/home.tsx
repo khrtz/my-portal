@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography'
 import { Links } from '../links';
 import { Container } from '@material-ui/core';
+import { Jobs } from '../jobs';
 
 const useStyles = makeStyles({
   root: {
@@ -38,6 +39,7 @@ export const Home = ({
       <SimpleAppBar />
       <Container>
         <Links />
+        <Jobs />
       </Container>
     </React.StrictMode>
   );

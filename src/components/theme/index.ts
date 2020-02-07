@@ -24,7 +24,10 @@ const palette = {
     "disabled": "rgba(0, 0, 0, 0.38)",
     "hint": "rgba(0, 0, 0, 0.38)"
   },
-  "divider": "rgba(0, 0, 0, 0.12)"
+  "divider": "rgba(0, 0, 0, 0.12)",
+  "card": {
+    "backgroundColor": 'red'
+  }
 };
 
 export const khrtzTheme = createMuiTheme({palette});
