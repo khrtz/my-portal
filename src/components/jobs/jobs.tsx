@@ -51,7 +51,7 @@ export function Jobs() {
           </Typography>
         </CardContent>
         <CardActions>
-          <Link href="https://abema.tv/">
+          <Link href="https://readyfor.jp/">
             <Button size="small">Link</Button>
           </Link>
         </CardActions>
@@ -72,7 +72,7 @@ export function Jobs() {
           </Typography>
         </CardContent>
         <CardActions>
-          <Link href="https://readyfor.jp/">
+          <Link href="https://abema.tv/">
             <Button size="small">Link</Button>
           </Link>
         </CardActions>
