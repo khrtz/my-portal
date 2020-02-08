@@ -39,6 +39,8 @@ export const Home = ({
       <SimpleAppBar />
       <Container>
         <Links />
+        <Typography variant="h5" component="h5">portfolio</Typography>
+        Comming Soon...
         <Jobs />
       </Container>
     </React.StrictMode>
