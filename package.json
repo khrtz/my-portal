@@ -21,7 +21,7 @@
     "@types/react": "16.9.19",
     "copy-webpack-plugin": "5.1.1",
     "json-loader": "0.5.7",
-    "ts-loader": "6.2.1",
+    "ts-loader": "6.2.2",
     "typescript": "3.7.5",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.10",
