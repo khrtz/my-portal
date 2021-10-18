@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@types/react": "16.9.19",
-    "copy-webpack-plugin": "5.1.1",
+    "copy-webpack-plugin": "9.0.1",
     "json-loader": "0.5.7",
     "ts-loader": "6.2.1",
     "typescript": "3.7.5",
